@@ -1,0 +1,1 @@
+{"routes":[{"path":"/api/events","method":"GET","description":"Fetch all events"},{"path":"/api/events/:id","method":"GET","description":"Fetch details of a specific event by ID"}]}
