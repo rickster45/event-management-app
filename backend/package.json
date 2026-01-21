@@ -1,0 +1,1 @@
+{\n  "name": "event-management-app",\n  "version": "1.0.0",\n  "description": "A backend for event management app",\n  "main": "app.js",\n  "scripts": {\n    "start": "node app.js"\n  },\n  "dependencies": {\n    "express": "^4.17.1"\n  },\n  "author": "rickster45",\n  "license": "ISC"\n}
