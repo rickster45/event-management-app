@@ -1,1 +1,15 @@
-{\n  "name": "event-management-app",\n  "version": "1.0.0",\n  "private": true,\n  "scripts": {\n    "start": "react-scripts start",\n    "build": "react-scripts build",\n    "test": "react-scripts test",\n    "eject": "react-scripts eject"\n  },\n  "dependencies": {\n    "react": "^17.0.2",\n    "react-dom": "^17.0.2",\n    "react-scripts": "^4.0.3"\n  }\n}
+{
+  "name": "event-management-app",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "homepage": "https://rickster45.github.io/event-management-app"
+}
